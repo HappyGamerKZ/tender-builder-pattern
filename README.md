@@ -25,12 +25,12 @@ The domain model is centered around a **Tender Management System**[cite: 1]. It 
 
 ### Compilation & Execution
 
-# 1. Клонирование репозитория
+# 1. Clone the repository:
 git clone https://github.com/your-username/tender-builder-pattern.git
 cd tender-builder-pattern
 
-# 2. Компиляция исходного кода
+# 2. Navigate to the source directory and compile the project:
 javac -d bin src/com/example/builder/*.java
 
-# 3. Запуск приложения
+# 3. Run the application:
 java -cp bin com.example.builder.Main

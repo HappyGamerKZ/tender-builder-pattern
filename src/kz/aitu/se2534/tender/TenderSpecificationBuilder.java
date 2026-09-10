@@ -1,6 +1,6 @@
 package kz.aitu.se2534.tender;
 
-public class TenderSpecificationBuilder implements TenderSpecificationBuilder {
+public class TenderSpecificationBuilder implements TenderBuilder {
     private final StringBuilder sb = new StringBuilder("=== TENDER SPECIFICATION SHEET ===\n");
     private boolean hasContent = false;
 
